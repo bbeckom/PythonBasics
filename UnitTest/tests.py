@@ -3,7 +3,7 @@ import UnitTest.main as main
 
 
 # define test class *required*
-class testTESTING(unittest.TestCase):
+class TestMain(unittest.TestCase):
 
     def TestPositiveNumber(self):
         result = main.DivideByTwo(20)
@@ -18,8 +18,8 @@ class testTESTING(unittest.TestCase):
 TestSuite = unittest.TestSuite()
 
 # add tests to suite
-TestSuite.addTest(testTESTING("TestPositiveNumber"))
-TestSuite.addTest(testTESTING("TestNegativeNumber"))
+TestSuite.addTest(TestMain("TestPositiveNumber"))
+TestSuite.addTest(TestMain("TestNegativeNumber"))
 
 
 # create runner
