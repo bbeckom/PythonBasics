@@ -10,3 +10,11 @@ print(response)
 
 # print out source text for given url
 print(response.text)
+
+
+url = "http://httpbin.org/post"
+# data to be provided in POST, can take multiple forms but here I just use a string
+data = "data to pass"
+# use post verb
+response = requests.post(url,data=data)
+print(response.text)
