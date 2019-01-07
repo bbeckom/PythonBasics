@@ -12,7 +12,7 @@ myfunction(mynumber)
 
 
 # classes create objects basically
-class TestObject(object):
+class TestObject:
     # __init__ is run at the start of object creation and shows the data that must be passed
     def __init__(self,firstvar,secondvar):
         # create the values for the object using what was passed
