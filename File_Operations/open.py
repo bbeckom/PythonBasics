@@ -23,7 +23,7 @@ mystr1 = "this is a test string\n"
 myfile2 = open("myfile1.txt", "w")
 # call the write function to add the data to the file, whatever exists in the file will be written over
 myfile2.write(mystr1)
-#close file
+# close file
 myfile2.close()
 # print file contents
 myfile1 = open("myfile1.txt", "r")
