@@ -13,7 +13,11 @@
 # the second "r" options tells the opener to only read the file
 myfile1 = open("myfile1.txt", "r")
 # read function can be called to pull the content of the file
+<<<<<<< HEAD
 print("1", myfile1.read())
+=======
+print("1",myfile1.read())
+>>>>>>> origin/master
 # close the file
 myfile1.close()
 
@@ -27,7 +31,11 @@ myfile2.write(mystr1)
 myfile2.close()
 # print file contents
 myfile1 = open("myfile1.txt", "r")
+<<<<<<< HEAD
 print("2", myfile1.read())
+=======
+print("2",myfile1.read())
+>>>>>>> origin/master
 myfile1.close()
 
 # === example of appending to a file === #
@@ -42,5 +50,9 @@ myfile3.write(mystr2)
 myfile3.close()
 # print file contents
 myfile1 = open("myfile1.txt", "r")
+<<<<<<< HEAD
 print("3", myfile1.read())
+=======
+print("3",myfile1.read())
+>>>>>>> origin/master
 myfile1.close()
