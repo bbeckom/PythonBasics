@@ -1,7 +1,7 @@
 import os
 import sqlite3
 
-db_filename = "database.db"
+db_filename = "Database.db"
 
 # if db file exists, delete it
 dbexist = os.path.exists(db_filename)

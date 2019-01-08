@@ -1,5 +1,5 @@
 import unittest
-import UnitTest.main as main
+import Unit_Test.main as main
 
 
 # define test class *required*
